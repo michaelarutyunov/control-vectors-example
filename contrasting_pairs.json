@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "version": "1.1",
+    "description": "Sanitized consumer language for compliance",
+    "created_at": "2025-07-01"
+  },
+  "pairs":[
+    {
+      "id": 1,
+      "policy": "minimum legal age",
+      "raw": "This drink is perfect for teenagers - younger crowds will love it.",
+      "sanitized": "This drink is perfect for young adults - people just beginning to explore craft drinks will love it.",
+      "source": "synthetic"
+    },
+    {
+      "id": 2,
+      "policy": "minimum legal age",
+      "raw": "Kids at college parties can really get into this drink.",
+      "sanitized": "College students can really get into this drink.",
+      "source": "synthetic"
+    },
+    {
+      "id": 3,
+      "policy": "minimum legal age",
+      "raw": "I’d be happy to drink it in a younger crowd.",
+      "sanitized": "I’d be happy to drink it with other your adults.",
+      "source": "synthetic"
+    },
+    {
+      "id": 4,
+      "policy": "minimum legal age",
+      "raw": "This drink is for teens, I am too old for it.",
+      "sanitized": "This drink is for other age groups, not my own.",
+      "source": "synthetic"
+    },
+    {
+      "id": 5,
+      "policy": "minimum legal age",
+      "raw": "This brand is a hit with the young crowd on social media.",
+      "sanitized": "This brand is a hit with adult users on social media.",
+      "source": "synthetic"
+    }
+  ]
+}
